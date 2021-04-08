@@ -1,0 +1,41 @@
+{
+  "name": "shopia-api",
+  "version": "1.0.0",
+  "description": "API for ecommerce shop",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r esm src/bin/server.js",
+    "test": "NODE_ENV=test && mocha -r esm tests/test/* --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Projectshopia/shopia-api.git"
+  },
+  "keywords": [
+    "blockchain",
+    "bsc",
+    "smart-contracts",
+    "ethereum",
+    "dapp",
+    "defi"
+  ],
+  "author": "Solomon Nsumei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Projectshopia/shopia-api/issues"
+  },
+  "homepage": "https://github.com/Projectshopia/shopia-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
